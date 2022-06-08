@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.inputs {
+ margin:20px 0px ;
+}
+.input {
+  padding: 10px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.button {
+  padding: 10px;
+  border: 0;
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.content-item {
+  padding: 10px;
+  border-radius: 10px;
+  margin : 5px 0px;
+  background-color: #f5f5f5;
+  width: 300px;
+  text-align: center;
+  display: flex;
+ justify-content: space-between;
+}
+.content-item a {
+  text-decoration: none;
+  color: #a2a2a2;
+}
+.remove-item {
+  background-color: red;
+  border: 0;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
